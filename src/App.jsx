@@ -15,6 +15,7 @@ const reducer = (state, action) => {
 };
 
 function App() {
+
   const [count, dispatch] = useReducer(reducer, initialState);
 
   return (
